@@ -10,6 +10,8 @@ find_package(catkin REQUIRED COMPONENTS
   roslib
 )
 
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+
 add_message_files(
   DIRECTORY msg
   FILES
@@ -37,6 +39,6 @@ generate_messages(
 )
 
 catkin_package(
+  INCLUDE_DIRS include
   CATKIN_DEPENDS std_msgs geometry_msgs sensor_msgs message_generation cv_bridge roslib
 )
-
