@@ -18,6 +18,8 @@ add_message_files(
   FaceDescription.msg
   FaceDescriptionVector.msg
   Keypoints2d.msg
+  Objects.msg
+  ObjectStamped.msg
 )
 
 # Generate services in the 'srv' folder
