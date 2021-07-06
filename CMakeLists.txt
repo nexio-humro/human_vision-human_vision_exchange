@@ -17,6 +17,8 @@ add_message_files(
   FILES
   FaceDescription.msg
   FaceDescriptionVector.msg
+  FaceDescriptionFacenet.msg
+  FaceDescriptionVectorFacenet.msg
   Keypoints2d.msg
   Objects.msg
   ObjectStamped.msg
@@ -30,6 +32,7 @@ add_service_files(
    DoPhotoReceiver.srv
    CutFaces.srv
    FindFaceVectors.srv
+   FindFaceVectorsFacenet.srv
 )
 
 ## Generate added messages and services with any dependencies listed here
