@@ -29,6 +29,7 @@ add_service_files(
    DIRECTORY srv 
    FILES
    FaceVectorReceiver.srv
+   FaceVectorReceiverFacenet.srv
    DoPhotoReceiver.srv
    CutFaces.srv
    FindFaceVectors.srv
